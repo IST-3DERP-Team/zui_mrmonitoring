@@ -240,7 +240,7 @@ sap.ui.define([
                 if (oArgs.suggestionObject) {
                     var oObject = oArgs.suggestionObject.getBindingContext().getObject(),
                         oToken = new Token();
-    
+     
                     oToken.setKey(oObject.werks);
                     oToken.setText(oObject.name1 + " (" + oObject.werks + ")");
                     //oToken.setText(oObject.werks);
